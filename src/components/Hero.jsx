@@ -4,6 +4,7 @@ import Hero1 from '../assets/img/hero-image-1.jpg'
 import Hero2 from '../assets/img/hero-image-2.jpg'
 
 
+
 const Container = styled.div`
   width: 100%;
   height: 100vh;
@@ -33,6 +34,7 @@ const ImgContainer = styled.div`
 const Image = styled.img`
   height: 90%;
   width: 100%;
+  object-fit: cover;
 `
 const Btn = styled.button`
   display: flex;  
@@ -46,31 +48,35 @@ const Btn = styled.button`
   border-color: #000;
   color: #000;
   font-weight: 800;
-  line-height: 30px;
+  line-height: 25px;
   transition: .1s ease-in-out;
   cursor: pointer;
   margin: 15px;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
 `
 
 const InfoContainer = styled.div`
   position: absolute;
-  top: 10%;
-  left: 30%;
+  top: 20%;
+  left: 15%;
   right: 5%;
-  &:hover .Shop {
-    background-color: black;
-  }
 `
 
 const Title = styled.h1`
   font-size:70px;
   line-height: 75px;
+  color: white;
 `
 
 const Desc = styled.p`
   margin: 20px 0px;
   font-size: 20px;
-  font-weight: 900;
+  
+  color: white;
 `
 
 
@@ -90,11 +96,11 @@ function Hero() {
             <Btn class="Shop">SHOP KIDS 🠪</Btn>
           </InfoContainer>
         </HeroSection1>
-        <HeroSection2>
+        {/* <HeroSection2>
           <ImgContainer>
             <Image src={Hero2}/>
           </ImgContainer>
-        </HeroSection2>
+        </HeroSection2> */}
     </Container>
   )
 }
