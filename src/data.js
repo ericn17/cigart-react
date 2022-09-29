@@ -26,27 +26,27 @@ export const categories = [
 export const popularProducts = [
   {
     id:1,
-    img:"https://images.pexels.com/photos/1909015/pexels-photo-1909015.jpeg?cs=srgb&dl=pexels-lisa-fotios-1909015.jpg&fm=jpg"
+    img:"https://images.pexels.com/photos/1909015/pexels-photo-1909015.jpeg?cs=srgb&dl=pexels-lisa-fotios-1909015.jpg&fm=jpg",
   },
   {
     id:2,
-    img:"https://images.pexels.com/photos/1909015/pexels-photo-1909015.jpeg?cs=srgb&dl=pexels-lisa-fotios-1909015.jpg&fm=jpg"
+    img:"https://images.pexels.com/photos/1909015/pexels-photo-1909015.jpeg?cs=srgb&dl=pexels-lisa-fotios-1909015.jpg&fm=jpg",
   },
   {
     id:3,
-    img:"https://images.pexels.com/photos/1909015/pexels-photo-1909015.jpeg?cs=srgb&dl=pexels-lisa-fotios-1909015.jpg&fm=jpg"
+    img:"https://images.pexels.com/photos/1909015/pexels-photo-1909015.jpeg?cs=srgb&dl=pexels-lisa-fotios-1909015.jpg&fm=jpg",
   },
   {
     id:4,
-    img:"https://images.pexels.com/photos/1909015/pexels-photo-1909015.jpeg?cs=srgb&dl=pexels-lisa-fotios-1909015.jpg&fm=jpg"
+    img:"https://images.pexels.com/photos/1909015/pexels-photo-1909015.jpeg?cs=srgb&dl=pexels-lisa-fotios-1909015.jpg&fm=jpg",
   },
   {
     id:5,
-    img:"https://images.pexels.com/photos/1909015/pexels-photo-1909015.jpeg?cs=srgb&dl=pexels-lisa-fotios-1909015.jpg&fm=jpg"
+    img:"https://images.pexels.com/photos/1909015/pexels-photo-1909015.jpeg?cs=srgb&dl=pexels-lisa-fotios-1909015.jpg&fm=jpg",
   },
   {
-    id:1,
-    img:"https://images.pexels.com/photos/1909015/pexels-photo-1909015.jpeg?cs=srgb&dl=pexels-lisa-fotios-1909015.jpg&fm=jpg"
+    id:6,
+    img:"https://images.pexels.com/photos/1909015/pexels-photo-1909015.jpeg?cs=srgb&dl=pexels-lisa-fotios-1909015.jpg&fm=jpg",
   },
 ]
 
