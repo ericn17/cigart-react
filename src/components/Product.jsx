@@ -3,7 +3,7 @@ import ShoppingCart from '@mui/icons-material/ShoppingCartOutlined';
 import SearchIcon from '@mui/icons-material/SearchOutlined';
 import HeartIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
-const Info = styled.div`
+const IconContainer = styled.div`
   opacity: 0;
   width: 100%;
   height: 100%;
@@ -21,15 +21,15 @@ const Info = styled.div`
 const Container = styled.div`
   flex: 1;
   margin: 10px;
-  min-width: 280px;
-  height: 350px;
+  min-width: 400px;
+  min-height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #f5fbfd;
   position: relative;
 
-  &:hover ${Info} {
+  &:hover ${IconContainer} {
     opacity: 1;
   }
 `
@@ -42,8 +42,10 @@ const Circle = styled.div`
   position: absolute;
 `
 const Image = styled.img`
-  height: 75%;
+  height: 70%;
   z-index: 2;
+  width: 70%;
+  object-fit: cover;
 `
 const Icon = styled.div`
   width: 40px;
@@ -61,6 +63,23 @@ const Icon = styled.div`
     transform: scale(1.1);
   }
 `
+const Info = styled.div`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+`
+
+const Title = styled.div`
+  font-weight: 800;
+`
+
+const Category = styled.div`
+  
+`
+const Price = styled.div`
+  font-weight: 400;
+`
+
 
 const Product = ({item}) => {
   return (
@@ -68,6 +87,11 @@ const Product = ({item}) => {
       <Circle/>
       <Image src={item.img}/>
       <Info>
+      <Title>{item.title}</Title>
+      <Category>{item.category}</Category>
+      <Price>{item.price}</Price>
+      </Info>
+      <IconContainer>
         <Icon>
          <ShoppingCart/>
         </Icon>
@@ -77,7 +101,7 @@ const Product = ({item}) => {
         <Icon>
          <HeartIcon/>
         </Icon>
-      </Info>
+      </IconContainer>
     </Container>
   );
 };
