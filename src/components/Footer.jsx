@@ -4,6 +4,9 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import PinterestIcon from '@mui/icons-material/Pinterest';
+import RoomIcon from '@mui/icons-material/Room';
+import PhoneIcon from '@mui/icons-material/Phone';
+import EmailIcon from '@mui/icons-material/Email';
 
 
 const Container = styled.div`
@@ -15,6 +18,7 @@ const Left = styled.div`
   display: flex;
   flex-direction: column;
   padding: 20px;
+  margin-right: 50px;
 `
 const Logo = styled.h1`
   
@@ -42,20 +46,35 @@ const Center = styled.div`
   padding: 20px;
 `
 const Title = styled.h3`
-  
+  margin-bottom: 30px;
 `
 
 const List = styled.ul`
-  
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 `
 
 const ListItem = styled.li`
-  
+  width: 50%;
+  margin-bottom: 10px;
 `
 
 const Right = styled.div`
   flex: 1;
   padding: 20px;
+`
+
+const ContactItem = styled.div`
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+
+`
+const Payment = styled.img`
+  width: 50%;
 `
 
 const Footer = () => {
@@ -96,7 +115,19 @@ const Footer = () => {
           <ListItem>Terms</ListItem>
         </List>
       </Center>
-      <Right></Right>
+      <Right>
+        <Title>Contact Us</Title>
+        <ContactItem>
+          <RoomIcon style={{marginRight: "10px"}}/> 13927 Saticoy Street, Panorama City, California 91402.
+        </ContactItem>
+        <ContactItem>
+          <PhoneIcon style={{marginRight: "10px"}}/> +1 714 583 8912
+        </ContactItem>
+        <ContactItem>
+          <EmailIcon style={{marginRight: "10px"}}/> contact@cigart.dev
+        </ContactItem>
+        <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+      </Right>
     </Container>
   )
 }

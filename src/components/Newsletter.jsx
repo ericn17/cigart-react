@@ -3,7 +3,7 @@ import React from 'react'
 import SendIcon from '@mui/icons-material/Send';
 
 const Container = styled.div`
-  height: 50vh;
+  height: 65vh;
   background-color: #fcf5f5;
   display: flex;
   align-items: center;
