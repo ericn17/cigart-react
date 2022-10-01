@@ -5,6 +5,9 @@ import Promotion from '../components/Promotion'
 import Hero from '../components/Hero'
 import Categories from '../components/Categories'
 import Products from '../components/Products'
+import ProductsTitle from '../components/ProductsTitle'
+import Newsletter from '../components/Newsletter'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -13,7 +16,10 @@ const Home = () => {
       <Navbar/>
       <Hero/>
       <Categories/>
+      <ProductsTitle/>
       <Products/>
+      <Newsletter/>
+      <Footer />
     </div>
   )
 }

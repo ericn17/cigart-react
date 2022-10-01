@@ -19,7 +19,7 @@ export const categories = [
    {
     id: 3,
     img: "https://images.pexels.com/photos/5623675/pexels-photo-5623675.jpeg",
-    title: "KID'S SHOE",
+    title: "KIDS' SHOE",
   },
 ];
 
@@ -35,7 +35,7 @@ export const popularProducts = [
     id:2,
     img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/604ab211-f87a-4a0d-8dc3-3b259ff78038/court-borough-mid-2-big-kids-shoes-3n7hz5.png",
     title: "Nike Court Borough Mid 2",
-    category: "Kid's Shoes",
+    category: "Kids' Shoes",
     price: "$70"
   },
   {
@@ -65,6 +65,20 @@ export const popularProducts = [
     title: "Air Jordan 1 Mid",
     category: "Men's Shoes",
     price: "$125"
+  },
+  {
+    id:7,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/s6dp2gck3oukxj9csz5y/air-max-270-mens-shoes-KkLcGR.png",
+    title: "Air Max 270",
+    category: "Men's Shoes",
+    price: "$160"
+  },
+  {
+    id:8,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ba26a81a-9557-442e-927c-82675cc79f50/force-1-le-little-kids-shoes-d0vJBr.png",
+    title: "Force 1 LE",
+    category: "Kids' Shoes",
+    price: "$70"
   },
 ]
 

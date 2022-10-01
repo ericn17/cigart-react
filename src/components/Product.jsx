@@ -16,6 +16,7 @@ const IconContainer = styled.div`
   align-items: center;
   justify-content: center;
   transition: all 0.5s ease;
+  cursor: pointer;
 `
 
 const Container = styled.div`
@@ -42,9 +43,9 @@ const Circle = styled.div`
   position: absolute;
 `
 const Image = styled.img`
-  height: 70%;
+  height: 60%;
   z-index: 2;
-  width: 70%;
+  width: 60%;
   object-fit: cover;
 `
 const Icon = styled.div`
@@ -74,10 +75,10 @@ const Title = styled.div`
 `
 
 const Category = styled.div`
-  
+  font-weight: 400;
 `
 const Price = styled.div`
-  font-weight: 400;
+  font-weight: 600;
 `
 
 
