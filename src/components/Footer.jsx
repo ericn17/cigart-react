@@ -39,6 +39,7 @@ const SocialIcon = styled.div`
   align-items: center;
   justify-content: center;
   margin-right: 20px;
+  cursor: pointer;
 `
 
 const Center = styled.div`
@@ -55,6 +56,7 @@ const List = styled.ul`
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  cursor: pointer;
 `
 
 const ListItem = styled.li`
