@@ -169,3 +169,90 @@ export const menProducts = [
   },
 ];
 
+export const womenProducts = [
+  {
+    id:1,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5c2a3c54-65c7-4102-847d-546ed9b80efc/ryz-365-2-womens-shoes-LkNlGp.png",
+    title: "Nike Ryze 365 2",
+    category: "Women's Shoes",
+    price: "$85"
+  },
+  {
+   id:2,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6a455ad5-da55-4de8-8d29-3ca5cfd01211/zoomx-vaporfly-next-2-womens-road-racing-shoes-Dbqd8h.png",
+    title: "Nike ZoomX Vaporfly Next% 2",
+    category: "Women's Shoes",
+    price: "$250"
+  },
+  {
+    id:3,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/46c88fa2-8d40-46ad-8c0c-c40e05776738/court-legacy-next-nature-womens-shoes-BVtWcS.png",
+    title: "Court Legacy Next Nature",
+    category: "Women's Shoes",
+    price: "$70"
+  },
+  {
+    id:4,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/090fd678-b38d-4f5b-b3d6-b6900116865b/waffle-debut-womens-shoes-2QpPZF.png",
+    title: "Waffle Debut",
+    category: "Women's Shoes",
+    price: "$75"
+  },
+  {
+    id:5,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0e124735-c5ee-488a-b1f9-c123c02a3037/blazer-low-platform-womens-shoes-X8Nl4M.png",
+    title: "Blazer Low Platform",
+    category: "Women's Shoes",
+    price: "$95"
+  },
+  {
+    id:6,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6a30f55c-32f1-4480-bfe1-7fa59ae0eed1/ryz-365-2-womens-shoes-LkNlGp.png",
+    title: "Ryz 365 2",
+    category: "Women's Shoes",
+    price: "$85"
+  },
+  {
+    id:7,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3bdcf8a1-b301-4444-8dfd-92601bbf42ac/blazer-mid-77-vintage-womens-shoes-25h71W.png",
+    title: "Blazer Mid '77 Vintage",
+    category: "Women's Shoes",
+    price: "$105"
+  },
+  {
+    id:8,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bb84a86f-1ba6-4f47-9b8e-5139bc42465f/air-zoom-pegasus-39-shield-womens-weatherized-road-running-shoes-dXsmXn.png",
+    title: "Air Zoom Pegasus 39 Shield",
+    category: "Women's Shoes",
+    price: "$140"
+  },
+  {
+    id:9,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/758eda98-90eb-494d-8b63-b877dd9c7337/air-zoom-pegasus-39-womens-road-running-shoes-Wck51L.png",
+    title: "Air Zoom Pegasus 39",
+    category: "Women's Shoes",
+    price: "$130"
+  },
+  {
+    id:10,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/640a787d-133d-47de-b1f9-5c15ecf0d223/burrow-womens-slipper-Mwlm1j.png",
+    title: "Burrow",
+    category: "Women's Shoes",
+    price: "$60"
+  },
+  {
+    id:11,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/019f60a9-aa10-4327-b5f6-b940b753fbdb/dunk-high-1985-shoes-rsx4JL.png",
+    title: "Dunk High 1985",
+    category: "Women's Shoes",
+    price: "$140"
+  },
+  {
+    id:12,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ba1cdfb8-7a74-4314-a866-366733315a67/metcon-8-womens-training-shoes-Hzmjkl.png",
+    title: "Metcon 8",
+    category: "Women's Shoes",
+    price: "$130"
+  },
+];
+
