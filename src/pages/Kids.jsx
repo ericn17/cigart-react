@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import Navbar from '../components/Navbar'
 import Promotion from '../components/Promotion'
 import Footer from '../components/Footer'
-import ShoesWomen from '../components/ShoesWomen'
+import ShoesKids from '../components/ShoesKids'
 import Newsletter from '../components/Newsletter'
 
 const Container = styled.div`
@@ -34,12 +34,12 @@ const Option = styled.option`
   
 `
 
-const Women = () => {
+const Kids = () => {
   return (
     <Container>
       <Navbar/>
       <Promotion/>
-      <Title>Women's Shoes</Title>
+      <Title>Kids' Shoes</Title>
       <FilterContainer>
         <Filter>
           <FilterText>Filter Products: </FilterText>
@@ -64,11 +64,11 @@ const Women = () => {
           </Select>
         </Filter>
       </FilterContainer>
-      <ShoesWomen/>
+      <ShoesKids/>
       <Newsletter/>
       <Footer/>
     </Container>
   )
 }
 
-export default Women
+export default Kids

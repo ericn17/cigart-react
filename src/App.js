@@ -5,9 +5,10 @@ import SingleProduct from "./pages/SingleProduct"
 import Register from "./pages/Register"
 import Login from "./pages/Login"
 import Cart from "./pages/Cart"
+import Kids from "./pages/Kids"
 
 const App = () => {
-  return <Women/>
+  return <Kids/>
 }
 
 export default App;

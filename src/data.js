@@ -256,3 +256,90 @@ export const womenProducts = [
   },
 ];
 
+export const kidsProducts = [
+  {
+    id:1,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/604ab211-f87a-4a0d-8dc3-3b259ff78038/court-borough-mid-2-big-kids-shoes-3n7hz5.png",
+    title: "Nike Court Borough Mid 2",
+    category: "Kids' Shoes",
+    price: "$70"
+  },
+  {
+    id:2,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ba26a81a-9557-442e-927c-82675cc79f50/force-1-le-little-kids-shoes-d0vJBr.png",
+    title: "Force 1 LE",
+    category: "Kids' Shoes",
+    price: "$70"
+  },
+  {
+    id:3,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/64a68304-ac68-4c24-a34f-aeb7bca3b808/air-zoom-arcadia-2-big-kids-road-running-shoes-gRPsFm.png",
+    title: "Air Zoom Arcadia 2",
+    category: "Kids' Shoes",
+    price: "$75"
+  },
+  {
+    id:4,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1aa3abc4-692e-466b-b985-570a178f25ef/air-force-1-big-kids-shoes-M7mcL9.png",
+    title: "Air Force 1",
+    category: "Kids' Shoes",
+    price: "$90"
+  },
+  {
+    id:5,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ae2d0f59-8954-498c-aa2a-d6ee1a550fb5/air-force-1-premium-big-kids-shoes-wJCwFb.png",
+    title: "Air Force 1 Premium",
+    category: "Kids' Shoes",
+    price: "$105"
+  },
+  {
+    id:6,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6a30f55c-32f1-4480-bfe1-7fa59ae0eed1/ryz-365-2-womens-shoes-LkNlGp.png",
+    title: "Ryz 365 2",
+    category: "Kids' Shoes",
+    price: "$85"
+  },
+  {
+    id:7,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/elcrnqxw9rvz3n2adqtl/air-max-270-big-kids-shoes-HbtNX3.png",
+    title: "Air Max 270",
+    category: "Kids' Shoes",
+    price: "$130"
+  },
+  {
+    id:8,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/19b149a0-e9ec-4a41-bf7b-f1314ecfeaf7/air-max-90-ltr-big-kids-shoes-1wzwJM.png",
+    title: "Air Max 90 LTR",
+    category: "Kids' Shoes",
+    price: "$100"
+  },
+  {
+    id:9,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cae9f806-0eb4-4134-891e-5b3c6815a2bf/flex-plus-big-kids-road-running-shoes-0LhR4b.png",
+    title: "Flex Plus",
+    category: "Kids' Shoes",
+    price: "$56"
+  },
+  {
+    id:10,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ca398f17-d8fe-4d1a-b795-cc8f0cc88bd0/air-zoom-pegasus-39-little-big-kids-road-running-shoes-x7qQR4.png",
+    title: "Air Zoom Pegasus 39",
+    category: "Kids' Shoes",
+    price: "$100"
+  },
+  {
+    id:11,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ae7ce448-5de7-4e77-8e60-1bc6e02eb2ac/jordan-1-mid-big-kids-shoes-H7BzRT.png",
+    title: "Jordan 1 Mid",
+    category: "Kids' Shoes",
+    price: "$110"
+  },
+  {
+    id:12,
+    img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d4337dc2-b622-4f2b-850b-0b04653fbf44/air-zoom-crossover-big-kids-basketball-shoes-1G4QbW.png",
+    title: "Air Zoom Crossover",
+    category: "Kids' Shoes",
+    price: "$80"
+  },
+];
+
