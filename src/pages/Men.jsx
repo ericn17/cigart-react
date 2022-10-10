@@ -4,6 +4,7 @@ import Promotion from '../components/Promotion'
 import Footer from '../components/Footer'
 import ShoesMen from '../components/ShoesMen'
 import Newsletter from '../components/Newsletter'
+import { mobile } from "../responsive";
 
 const Container = styled.div`
 `
@@ -19,6 +20,7 @@ const FilterContainer = styled.div`
 
 const Filter = styled.div`
   margin: 20px;
+   ${mobile({ width: "0px 20px", display:"flex", flexDirection:"column"})}
 `
 const FilterText = styled.span`
   font-size: 20px;
